@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Boka</title>
+  </head>
+  <body>
+    <nav>
+      <img
+        src="../img/logo.webp"
+        alt="Turist byrå logga"
+        onclick="window.location.href='../index.html'"
+      />
+      <div>
+        <a href="../html/galleri.html">Galleri</a>
+        <a href="../html/historia.html">Historia</a>
+        <a href="../html/resa_bokning.html">Bokning</a>
+        <a href="../html/kontakt.html">Kontakta oss</a>
+      </div>
+    </nav>
+    <main class="bokaMain">
+      <div>
+        <h2>Boka Flyg (tur och retur)</h2>
+        <form action="#">
+          <label for="from">Resa från </label>
+          <input
+            type="text"
+            placeholder="T.ex Stockholm"
+            name="from"
+            id="from"
+          />
+          <label for="to">till</label>
+          <input type="text" placeholder="T.ex Rom" name="to" id="to" /><br />
+          <label for="antal">Antal resenärer: </label>
+          <input type="number" id="antal" name="antal" min="0" /><br />
+          <label for="från">Avresedatum: </label>
+          <input type="date" id="från" name="från" /><br />
+          <label for="till">Reselängd: </label>
+          <input type="number" name="till" id="till" min="1" /><br />
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+      <div>
+        <h2>Boka Hotell</h2>
+        <form action="#">
+          <label for="vart">Vart: </label>
+          <input type="text" name="vart" id="vart" /><br />
+          <label for="start">Från: </label>
+          <input type="date" name="start" id="start" min="2023-09-11" />
+          <label for="end">Till: </label>
+          <input type="date" name="end" id="end" min="2023-09-12" /><br />
+          <label for="vuxna">Antal Vuxna: </label>
+          <input type="number" min="0" name="vuxna" id="vuxna" />
+          <label for="barn">Antal Barn</label>
+          <input type="number" min="0" name="barn" id="barn" /><br />
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </main>
+  </body>
+</html>

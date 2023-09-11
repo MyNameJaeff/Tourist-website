@@ -1,0 +1,243 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* background: linear-gradient(
+    90deg,
+    rgba(5, 119, 7, 0.3) 0%,
+    rgba(255, 255, 255, 0.8) 33%,
+    rgba(255, 237, 237, 0.8043418050814075) 67%,
+    rgba(255, 0, 0, 0.3) 100%
+  ); */
+  background-repeat: no-repeat;
+}
+.indexBody {
+  background-image: url("https://americadomani.com/wp-content/uploads/2023/02/rome7th.jpg");
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  height: 8%;
+  width: 100%;
+  background-color: rgba(28, 28, 28, 0.868);
+}
+nav > div {
+  width: 35%;
+  display: flex;
+  justify-content: space-around;
+}
+nav > a {
+  height: 100%;
+}
+nav > img {
+  margin-left: 5%;
+}
+nav > img {
+  height: 100%;
+}
+nav>div>a {
+  text-decoration: none;
+  font-size: large;
+  color: white;
+  text-align: center;
+  font-weight: bolder;
+  padding: 1.2%;
+  margin: 0.4%;
+}
+nav>div>a:hover {
+    transition-duration: 0.3s;
+  text-decoration: underline 3px rgba(0, 0, 0, 0.844);
+  border-radius: 5px;
+  color: black;
+  background-color: lightgrey;
+}
+main {
+  height: 93%;
+}
+.indexMain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main > h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 5em;
+  color: white;
+  /*-webkit-text-stroke: 1px black;*/
+  text-shadow: black 5px 7px;
+  text-decoration: underline solid white;
+}
+.parent {
+  /* Galleri grid */
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr) repeat(3, 2fr) 1fr;
+  grid-template-rows: 0fr repeat(4, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 30px;
+  padding-bottom: 3%;
+  padding-top: 3%;
+}
+.div1 {
+  grid-area: 2 / 2 / 3 / 6;
+  padding-bottom: 1%;
+  border-bottom: 2px solid black;
+}
+.div2 {
+  grid-area: 3 / 2 / 4 / 6;
+  padding-bottom: 1%;
+  border-bottom: 2px solid black;
+}
+.div3 {
+  grid-area: 4 / 2 / 5 / 6;
+  padding-bottom: 1%;
+  border-bottom: 2px solid black;
+}
+.div4 {
+  grid-area: 5 / 2 / 6 / 6;
+  padding-bottom: 3%;
+}
+.div5 {
+  grid-area: 2 / 2 / 3 / 3;
+}
+.div6 {
+  grid-area: 2 / 3 / 3 / 4;
+}
+.div7 {
+  grid-area: 2 / 4 / 3 / 5;
+}
+.div8 {
+  grid-area: 2 / 5 / 3 / 6;
+}
+.div9 {
+  grid-area: 3 / 2 / 4 / 3;
+}
+.div10 {
+  grid-area: 3 / 3 / 4 / 4;
+}
+.div11 {
+  grid-area: 3 / 4 / 4 / 5;
+}
+.div12 {
+  grid-area: 3 / 5 / 4 / 6;
+}
+.div13 {
+  grid-area: 4 / 2 / 5 / 3;
+}
+.div14 {
+  grid-area: 4 / 3 / 5 / 4;
+}
+.div15 {
+  grid-area: 4 / 4 / 5 / 5;
+}
+.div16 {
+  grid-area: 4 / 5 / 5 / 6;
+}
+.div17 {
+  grid-area: 5 / 2 / 6 / 3;
+}
+.div18 {
+  grid-area: 5 / 3 / 6 / 4;
+}
+.div19 {
+  grid-area: 5 / 4 / 6 / 5;
+}
+.div20 {
+  grid-area: 5 / 5 / 6 / 6;
+}
+.parent > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.parent > div > p {
+  margin-top: 1%;
+}
+.parent > div > img {
+  width: 500px;
+  height: 300px;
+  border-radius: 10px;
+}
+.historia {
+  height: 92%;
+}
+.historiaMain {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.historiaMain > div {
+  height: 80%;
+  width: 25%;
+  overflow: scroll;
+  border: 1px solid black;
+  padding: 1%;
+}
+.historiaMain > div > img {
+  margin-top: 5%;
+  width: 100%;
+}
+.bokaMain {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+.bokaMain > div {
+  margin-top: 4%;
+  height: 60%;
+  width: 25%;
+  font-size: larger;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    background-color:rgba(131, 131, 131, 0.345);
+    width: 100%;
+    height: 100%;
+    padding: 5%;
+    font-size:x-large;
+}
+form>input{
+    border: none;
+    padding: 3%;
+}
+form>input:last-child{
+    margin-top: 5%;
+}
+form>label{
+    margin-top: 3%;
+}
+.kontaktMain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kontaktMain>div{
+    height: 50%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: x-large;
+    font-weight: bold;
+}
+.kontaktMain>div>p{
+    padding: 3%;
+    color: white;
+    background-color: rgb(255, 108, 108);
+}
+.kontaktMain>div>p>a:visited{
+    color: blue;
+}
