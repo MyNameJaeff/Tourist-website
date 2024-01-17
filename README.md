@@ -1,6 +1,8 @@
 # Turist-hemsida
 A project that i was to complete during the start of my 4th year at NTI Södertörn
 
+Link to website: https://mynamejaeff.github.io/turist-hemsida-individuell/
+
 ## Purpose
 The purpose of the project was to reate a website that was to intice people to travel to the chose city by showing them a taste of some of the things the city were to offer in the form of food, sights and more
 
