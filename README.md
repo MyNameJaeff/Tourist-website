@@ -1,4 +1,4 @@
-# Turist-hemsida
+# Tourist-website
 A project that i was to complete during the start of my 4th year at NTI Södertörn
 
 Link to website: https://mynamejaeff.github.io/turist-hemsida-individuell/
